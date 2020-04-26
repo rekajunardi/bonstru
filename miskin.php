@@ -14,7 +14,7 @@ $msisdn = trim(fgets(STDIN));
 $otp = $tri->request_otp($msisdn,$imei);
 echo $otp[1] . "\r\n";
 echo "Udeh masuk otpnya coba cek pesannya ye!";
-echo "<br>";
+echo "<br/>";
 echo "Masukkan Sms OTP : ";
 $otp = trim(fgets(STDIN));
 $login = $tri->login($msisdn,$otp);
