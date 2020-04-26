@@ -5,9 +5,8 @@
 ///////////////////////////////////////
 
 include 'tri_req.php';
-$enter = "          ";
 echo " RANDOM LUCKY PRIZE BONSTRI ";
-echo $enter;
+echo "\r\n";
 $tri = new tri();
 $imei = "868880043302499";
 echo "Masukkan Nomer Tri lo : ";
@@ -15,7 +14,7 @@ $msisdn = trim(fgets(STDIN));
 $otp = $tri->request_otp($msisdn,$imei);
 echo $otp[1] . "\r\n";
 echo "Udeh masuk otpnya coba cek pesannya ye!";
-echo $enter;
+echo "\r\n";
 echo "Masukkan Sms OTP : ";
 $otp = trim(fgets(STDIN));
 $login = $tri->login($msisdn,$otp);
