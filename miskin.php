@@ -6,7 +6,8 @@
 
 include 'tri_req.php';
 echo " RANDOM LUCKY PRIZE BONSTRI 
-" echo $enter;
+";
+echo $enter;
 print "                 ";<br>
 $enter = "          ";
 $tri = new tri();
