@@ -1,6 +1,6 @@
 <?php
 ///////////////////////////////////////////
-///////Cl
+///////
 /////https://github.com/Rekajunardi//////
 ///////////////////////////////////////
 
@@ -23,8 +23,8 @@ $id = json_decode($id,true);
 $id = $id['data'][0]['rewardTransactionId'];
 for($id1 = 1500; $id1 < 1600;$id1++)
 {
-  $gas = $tri->claim($bearer,$id,$id1);
-  echo $gas . "\r\n";
+  $miskin = $tri->claim($bearer,$id,$id1);
+  echo $miskin . "\r\n";
   sleep(2);
 }
 
