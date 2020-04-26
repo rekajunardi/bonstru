@@ -5,10 +5,9 @@
 ///////////////////////////////////////
 
 include 'tri_req.php';
-echo " RANDOM LUCKY PRIZE BONSTRI 
-";
-echo $enter;
 $enter = "          ";
+echo " RANDOM LUCKY PRIZE BONSTRI ";
+echo $enter;
 $tri = new tri();
 $imei = "868880043302499";
 echo "Masukkan Nomer Tri lo : ";
