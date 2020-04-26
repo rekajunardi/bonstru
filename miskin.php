@@ -8,7 +8,7 @@ include 'tri_req.php';
 echo " RANDOM LUCKY PRIZE BONSTRI 
 ";
 echo $enter;
-print "                 ";<br>
+print "                 ";
 $enter = "          ";
 $tri = new tri();
 $imei = "868880043302499";
